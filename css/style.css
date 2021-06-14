@@ -1,377 +1,358 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ropa Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ropa Sans", sans-serif;
 }
-body{
-   max-width: 697px;
-   margin: 0 auto;
-
+body {
+  max-width: 697px;
+  margin: 0 auto;
 }
-header{
-    height: 49px;
-    -webkit-box-shadow: 0px 2px 10px 0px rgba(46,74,117,0.25);
-    -moz-box-shadow: 0px 2px 10px 0px rgba(46,74,117,0.25);
-    box-shadow: 0px 2px 10px 0px rgba(46,74,117,0.25);
+header {
+  height: 49px;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(46, 74, 117, 0.25);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(46, 74, 117, 0.25);
+  box-shadow: 0px 2px 10px 0px rgba(46, 74, 117, 0.25);
 }
-header div.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-    width: 100%;
+header div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
 }
-.logo{
-    margin-top: 8px;
-    margin-left: 44px;
-    width: 63px;
-    height: 25px;
-    font-size: 30px;
-    color: #777;
-    font-weight: 400;
-    line-height: 32.16px;
+.logo {
+  margin-top: 8px;
+  margin-left: 44px;
+  width: 63px;
+  height: 25px;
+  font-size: 30px;
+  color: #777;
+  font-weight: 400;
+  line-height: 32.16px;
 }
-span{
-    text-transform: uppercase;
+span {
+  text-transform: uppercase;
 }
-header div.container p{
-    margin-top: 13px;
-    color: #aaa;
-    font-size: 10px;
-    line-height: 11px;
-    font-weight: 400;
-    flex-grow: 1;
+header div.container p {
+  margin-top: 13px;
+  color: #aaa;
+  font-size: 10px;
+  line-height: 11px;
+  font-weight: 400;
+  flex-grow: 1;
 }
-header div.container i{
-    width: 18px;
-    height: 12px;
-    color: #aaa;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-right: 31px;
-
+header div.container i {
+  width: 18px;
+  height: 12px;
+  color: #aaa;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 31px;
 }
-main{
-    padding: 0 45px;
+main {
+  padding: 0 45px;
 }
-section.carroussel{
-    max-width: 692px;
-    width: 100%;
-    height: 100%;
-    margin: 20px auto;
-
+section.carroussel {
+  max-width: 692px;
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
 }
-div.exposicao img{
-   width: 100%;
-   height: 100%;
+div.exposicao img {
+  width: 100%;
+  height: 100%;
 }
 
-section.cards{
-    display: flex;
-    max-width: 697px;
+section.cards {
+  display: flex;
+  max-width: 697px;
 }
-.card1{
- 
-    margin-right: 90px;
-    background-color:#eee ;   
+.card1 {
+  margin-right: 90px;
+  background-color: #eee;
 }
-.card1 h2{
-font-family: Ropa Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 27px;
-padding: 10px;
-color: #888888;
-flex-grow: 1;
+.card1 h2 {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 27px;
+  padding: 10px;
+  color: #888888;
+  flex-grow: 1;
 }
-.card1 p{
-    font-family: Ropa Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 11px;
-    text-align: justify;
-    padding: 10px;
-}
-
-input[type=button]{
-    margin-top: 10px;
-    margin-right: 10px;
-    width: 56px;
-    height: 21px;
-    text-decoration: none;
-    color: white;
-    background: #51D275;
-    border-radius: 10.5px;
-    font-size: 20px;
-
-    text-align: center;
-    border: none;
-    font-style: normal;
-    font-weight: normal;
-    cursor: pointer;
-    
-}
-.card2{
-    width: 256px;
-    height: 250px;
-    background-color:#eee ;   
-    
-}
-.card2 h2{
-font-family: Ropa Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 27px;
-padding: 10px;
-color: #888888;
-flex-grow: 1;
-}
-.card2 p{
-    font-family: Ropa Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 11px;
-    text-align: justify;
-    padding: 10px;
+.card1 p {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: justify;
+  padding: 10px;
 }
 
-input.card2[type=button]{
-    margin-top: 10px;
-    margin-right: 10px;
-    width: 56px;
-    height: 21px;
-    text-decoration: none;
-    color: white;
-    background: #DC9730;
-    border-radius: 10.5px;
-    font-size: 20px;
+input[type="button"] {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 56px;
+  height: 21px;
+  text-decoration: none;
+  color: white;
+  background: #51d275;
+  border-radius: 10.5px;
+  font-size: 20px;
 
-    text-align: center;
-    border: none;
-    font-style: normal;
-    font-weight: normal;
-    cursor: pointer;
-    
+  text-align: center;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
 }
-div.card2 img{
-    width: 256px;
-    height: 144px;
+.card2 {
+  width: 256px;
+  height: 250px;
+  background-color: #eee;
 }
-.flex{
-    display: flex;
-    justify-content: flex-start;
+.card2 h2 {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 27px;
+  padding: 10px;
+  color: #888888;
+  flex-grow: 1;
+}
+.card2 p {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: justify;
+  padding: 10px;
 }
 
-section.styles > div.container{
-    max-width: 697px;
-    text-align: center;
-    margin-top: 45px;
-}
-.wrap-your{
-    color: #888;
-    font-size: 25px;
-    text-decoration: none;
-    font-weight: normal;
-}
-.wrap-industrial{
-    margin-top: 13px;
-    max-width: 697px;
-    width: 100%;
-    opacity:0.5 ;
-    height: 80px;
-    color: white;
-   background-image: url(../img/industrial.png);
-   background-size: cover;
-   background-position: center;
-}
-.wrap-industrial h2{
-    position: relative;
-    top: 25px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-    font-size: 25px;
-}
-.wrap-modern{
-    margin-top: 13px;
-    max-width: 697px;
-    width: 100%;
-    opacity:0.5 ;
-    height: 80px;
-    color: white;
-   background-image: url(../img/modern.png);
-   background-size: cover;
-   background-position: center;
-}
-.wrap-modern h2{
-    position: relative;
-    top: 25px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-    font-size: 25px;
-}
-.wrap-classic{
-    max-width: 697px;
-    margin-top: 13px;
-    margin-bottom: 60px;
-    width: 100%;
-    opacity:0.5 ;
-    height: 80px;
-    color: white;
-   background-image: url(../img/classic.png);
-   background-size: cover;
-   background-position: center;
-}
-.wrap-classic h2{
-    position: relative;
-    top: 25px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-    font-size: 25px;
-}
-footer{
-    background-color: #333;
-    max-width: 697px;
-}
-.wrapper{
-    display: flex;
+input.card2[type="button"] {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 56px;
+  height: 21px;
+  text-decoration: none;
+  color: white;
+  background: #dc9730;
+  border-radius: 10.5px;
+  font-size: 20px;
 
+  text-align: center;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
 }
-footer .mapa{
-    background-image: url(../img/mapa.png);
-    width:252px;
-    height: 163px;
-    background-size: cover;
-    margin: 40px 48px ;
-    border-radius: 20px;
+div.card2 img {
+  width: 256px;
+  height: 144px;
 }
-.flex-item{
-    align-self: center;
-    margin: auto;
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+section.styles > div.container {
+  max-width: 697px;
+  text-align: center;
+  margin-top: 45px;
+}
+.wrap-your {
+  color: #888;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.wrap-industrial {
+  margin-top: 13px;
+  max-width: 697px;
+  width: 100%;
+  opacity: 0.5;
+  height: 80px;
+  color: white;
+  background-image: url(../img/industrial.png);
+  background-size: cover;
+  background-position: center;
+}
+.wrap-industrial h2 {
+  position: relative;
+  top: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+}
+.wrap-modern {
+  margin-top: 13px;
+  max-width: 697px;
+  width: 100%;
+  opacity: 0.5;
+  height: 80px;
+  color: white;
+  background-image: url(../img/modern.png);
+  background-size: cover;
+  background-position: center;
+}
+.wrap-modern h2 {
+  position: relative;
+  top: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+}
+.wrap-classic {
+  max-width: 697px;
+  margin-top: 13px;
+  margin-bottom: 60px;
+  width: 100%;
+  opacity: 0.5;
+  height: 80px;
+  color: white;
+  background-image: url(../img/classic.png);
+  background-size: cover;
+  background-position: center;
+}
+.wrap-classic h2 {
+  position: relative;
+  top: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+}
+footer {
+  background-color: #333;
+  max-width: 697px;
+}
+.wrapper {
+  display: flex;
+}
+footer .mapa {
+  background-image: url(../img/mapa.png);
+  width: 252px;
+  height: 163px;
+  background-size: cover;
+  margin: 40px 48px;
+  border-radius: 20px;
+}
+.flex-item {
+  align-self: center;
+  margin: auto;
 }
 footer p {
-    font-size: 12px;
-    color: white;
-    line-height: 20px;
+  font-size: 12px;
+  color: white;
+  line-height: 20px;
 }
-footer ul li{
-    list-style: none;
-    display: inline-block;
-    
-   
+footer ul li {
+  list-style: none;
+  display: inline-block;
 }
-footer i{
-    color: white;
-    margin: auto;
-    width: 30px;
-    height: 30px;
-    
+footer i {
+  color: white;
+  margin: auto;
+  width: 30px;
+  height: 30px;
 }
-a{
-    font-size: 30px;
+a {
+  font-size: 30px;
 }
 /*Tratamento Responsivo*/
 
-@media(max-width:668px){
-    
-    header div.container{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .logo{
-      
-        margin-left: 10px;
-    }
+@media (max-width: 668px) {
+  header div.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo {
+    margin-left: 10px;
+  }
 
-    .card1{
-        width: 50%;
-        height: 300px;
-        background-color:#eee ;   
-        
-    }
+  .card1 {
+    width: 50%;
+    height: 300px;
+    background-color: #eee;
+  }
 
-    div.card1 img{
-        width: 100%;
-        height: 144px;
-    }
-    .card2{
-        width: 50%;
-        height: 300px;
-        background-color:#eee ;   
-        
-    }
+  div.card1 img {
+    width: 100%;
+    height: 144px;
+  }
+  .card2 {
+    width: 50%;
+    height: 300px;
+    background-color: #eee;
+  }
 
-    div.card2 img{
-        width: 100%;
-        height: 144px;
-    }
-    .flex{
-        display: flex;
-        justify-content: flex-start;
-    }
+  div.card2 img {
+    width: 100%;
+    height: 144px;
+  }
+  .flex {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
-@media(max-width:414px){
-    section.cards{
-        display: block;
-        margin: auto;
-    }
-    .card1{
-        width: 100%;
-        height: 300px;
-        background-color:#eee ;   
-    }
-    div.card1 img{
-        width: 100%;
-        height: 144px;
-    }
-    .card2{
-        width: 100%;
-        height: 300px;
-        background-color:#eee ;   
-        margin-top: 10px;
-    }
-    div.card2 img{
-        width: 100%;
-        height: 144px;
-    }
-.wrapper{
+@media (max-width: 414px) {
+  section.cards {
+    display: block;
+    margin: auto;
+  }
+  .card1 {
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+  }
+  div.card1 img {
+    width: 100%;
+    height: 144px;
+  }
+  .card2 {
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    margin-top: 10px;
+  }
+  div.card2 img {
+    width: 100%;
+    height: 144px;
+  }
+  .wrapper {
     display: block;
     padding: 10px;
-}
-footer .mapa{
+  }
+  footer .mapa {
     background-image: url(../img/mapa.png);
-    width:75%;
+    width: 75%;
     height: 30vh;
-}
-ul{
+  }
+  ul {
     text-align: center;
-}
-footer p {
+  }
+  footer p {
     font-size: 12px;
     color: white;
     line-height: 20px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 10px;
-  text-align: center;
-    
-}
-footer ul li{
+    text-align: center;
+  }
+  footer ul li {
     list-style: none;
     display: inline-block;
     text-align: center;
-
-}
-footer i{
+  }
+  footer i {
     color: white;
     margin: auto;
     width: 30px;
     height: 30px;
     text-align: center;
- 
-}
-a{
+  }
+  a {
     font-size: 30px;
     text-align: center;
-
-}
+  }
 }
