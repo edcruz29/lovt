@@ -55,15 +55,15 @@ main{
     padding: 0 45px;
 }
 section.carroussel{
+    max-width: 692px;
     width: 100%;
-    height: 296px;
+    height: 100%;
     margin: 20px auto;
 
 }
-div.exposicao{
-    background-image: url(/img/imagem1.png);
-    background-size: cover;
-    height: 45vh;
+div.exposicao img{
+   width: 100%;
+   height: 100%;
 }
 
 section.cards{
@@ -310,7 +310,7 @@ a{
         justify-content: flex-start;
     }
 }
-@media(max-width:400px){
+@media(max-width:414px){
     section.cards{
         display: block;
         margin: auto;
