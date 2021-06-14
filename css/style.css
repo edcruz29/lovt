@@ -343,10 +343,6 @@ footer .mapa{
     background-image: url(../img/mapa.png);
     width:75%;
     height: 30vh;
-    background-size: cover;
-    padding: 10px;
-    margin: 10px auto;
-    border-radius: 20px;
 }
 ul{
     text-align: center;
